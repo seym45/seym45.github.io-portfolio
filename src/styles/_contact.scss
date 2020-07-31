@@ -1,0 +1,26 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  .center-container {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    a:link,
+    a:visited {
+      text-decoration: none;
+      color: black;
+      // cursor: default;
+      margin: 5px 0px 0px 0px;
+      font-weight: 200;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    p {
+      margin: 5px 0px 0px 0px;
+      text-align: left;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
